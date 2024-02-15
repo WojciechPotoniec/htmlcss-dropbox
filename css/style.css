@@ -45,7 +45,7 @@ header {
     height: 70px;
 }
 nav {
-    /* position: fixex; */
+    position: fixex;
     top: 0;
     left: 0;
     width: 100%;
@@ -64,6 +64,11 @@ nav li {
     background-color:var(--color-color-button);
     color: white;
 }
+.left i {
+    font-size: 3em;
+    color: var(--color-footer-bg);
+    margin-top: 60px;
+}
 /* main */
 #hero {
     background-color: var(--color-color-contrast);
@@ -79,6 +84,14 @@ h1 {
 }
 .left {
     width: 30%;
+}
+.left > a, 
+.left > span {
+    margin-top: 30px;
+}
+.left > .btn {
+    max-width: 65%;
+    text-align: center;
 }
 .right {
     width: 70%;
@@ -108,4 +121,7 @@ h1 {
 }
 .flex-column {
     flex-direction: column;
+}
+.wrap {
+    flex-wrap: wrap;
 }
