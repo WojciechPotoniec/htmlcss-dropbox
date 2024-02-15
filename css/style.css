@@ -45,7 +45,8 @@ header {
     height: 70px;
 }
 nav {
-    position: fixex;
+    background-color: var(--color-main-bg);
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
