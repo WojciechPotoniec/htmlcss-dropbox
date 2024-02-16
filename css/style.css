@@ -24,10 +24,14 @@ ul {
 	--color-squate7: #0d2481;
 	--color-square8: #ffd830;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* general rules */
 body {
     font-family: "Open Sans", sans-serif;
+    min-width: 1200px;
 }
 
 .debug {
@@ -65,6 +69,9 @@ nav li {
     background-color:var(--color-color-button);
     color: white;
 }
+.btn-large {
+
+}
 .left i {
     font-size: 3em;
     color: var(--color-footer-bg);
@@ -74,7 +81,10 @@ nav li {
 #hero {
     background-color: var(--color-color-contrast);
 }
-/* section */
+#business {
+    padding-top: 120px;
+}
+/* section id="hero"*/
 h1 {
     padding-top: 70px;
     font-size: 5em;
@@ -102,10 +112,33 @@ h1 {
     width: 100%;
     height: 100%;
 }
+/* section id="business" */
+
+.business-box {
+    width: calc(100% / 3);
+    border: 1px solid lightgrey;
+}
+.business-box-top {
+    padding: 10px 0px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+.business-box-bottom {
+    padding: 20px;
+}
+.grey-text {
+    color: grey;
+}
 
 /* footer */
 
-
+/* margin e padding */
+.pt-30 {
+    padding-top: 30px;
+}
+.pb-30 {
+    padding-bottom: 30px;
+}
 /* utility */
 .container {
     max-width: 1200px;
