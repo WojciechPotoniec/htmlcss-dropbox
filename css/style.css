@@ -174,13 +174,16 @@ h1 {
 
 /* section card */
 .card {
-    width: calc(90% / 3);
+    width: calc(100% / 3 - 40px);
 }
 .card img {
     width: 100%;
 }
 /* footer */
-
+footer {
+    background-color: var(--color-footer-bg);
+    color: var(--color-main-bg);
+}
 /* margin e padding */
 .pt-10 {
     padding-top: 10px;
@@ -224,7 +227,7 @@ h1 {
 .small-container {
     max-width: 1000px;
     margin: 0 auto;
-    gap: 40px;
+    
 }
 .d-flex {
     display: flex;
@@ -237,4 +240,7 @@ h1 {
 }
 .wrap {
     flex-wrap: wrap;
+}
+.gap {
+    gap: 40px;
 }
