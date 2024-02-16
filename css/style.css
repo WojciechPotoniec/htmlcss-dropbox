@@ -40,8 +40,17 @@ body {
 a {
     text-decoration: none;
 }
-a:hover {
+li a:hover {
     text-decoration: underline;
+}
+.small-text {
+    font-size: 0.9em;
+}
+h2 {
+    font-size: 2em;
+}
+h2, h3 {
+    font-weight: 800;
 }
 
 /* header */
@@ -70,7 +79,22 @@ nav li {
     color: white;
 }
 .btn-large {
-
+    padding: 10px;
+    background-color: var(--color-color-button);
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    display: block;
+}
+.btn-contrast {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 2px solid var(--color-footer-bg);
+    display: inline-block;
+}
+.btn-contrast a  {
+    color: var(--color-footer-bg);
 }
 .left i {
     font-size: 3em;
@@ -118,27 +142,63 @@ h1 {
     width: calc(100% / 3);
     border: 1px solid lightgrey;
 }
+.business-box-center {
+    border: 1px solid lightgrey;
+}
+.business-box-center-bottom {
+    padding: 30px;     
+}
 .business-box-top {
     padding: 10px 0px;
     border-bottom: 1px solid lightgrey;
     text-align: center;
 }
 .business-box-bottom {
-    padding: 20px;
+    padding: 50px;
 }
 .grey-text {
     color: grey;
+}
+.b-bottom {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 40px;
+}
+.list-icon {
+    padding-left: 0.5em;
+    text-indent: -0.6em;
+}
+.blue-check {
+    color: var(--color-color-button);
 }
 
 /* footer */
 
 /* margin e padding */
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
 .pt-30 {
     padding-top: 30px;
 }
 .pb-30 {
     padding-bottom: 30px;
 }
+.mr-20 {
+    margin-right: 30px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+
 /* utility */
 .container {
     max-width: 1200px;
@@ -147,6 +207,7 @@ h1 {
 .small-container {
     max-width: 1000px;
     margin: 0 auto;
+    gap: 40px;
 }
 .d-flex {
     display: flex;
