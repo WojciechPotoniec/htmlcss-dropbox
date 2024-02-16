@@ -182,6 +182,11 @@ h1 {
 /* footer */
 footer {
     background-color: var(--color-footer-bg);
+}
+.footer-top {
+    color: var(--color-main-bg);
+}
+.footer-bottom {
     color: var(--color-main-bg);
 }
 /* margin e padding */
@@ -193,6 +198,9 @@ footer {
 }
 .pt-30 {
     padding-top: 30px;
+}
+.pt-100 {
+    padding-top: 100px;
 }
 .pb-30 {
     padding-bottom: 30px;
@@ -226,8 +234,7 @@ footer {
 }
 .small-container {
     max-width: 1000px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 .d-flex {
     display: flex;
@@ -243,4 +250,9 @@ footer {
 }
 .gap {
     gap: 40px;
+}
+.b-top {
+    border-top: 1px solid lightgrey;
+    width: 10%;
+    
 }
