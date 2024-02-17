@@ -79,13 +79,19 @@ nav li {
     color: white;
 }
 .btn-large {
-    padding: 10px;
+    padding: 8px;
     background-color: var(--color-color-button);
     width: 100%;
     text-align: center;
     margin-top: 10px;
     color: white;
     display: block;
+}
+.btn-large-contrast {
+    padding: 8px;
+    background-color: var(--color-big-square);
+    width: 100%;
+    text-align: center;
 }
 .btn-contrast {
     padding: 5px 10px;
@@ -112,7 +118,7 @@ nav li {
 h1 {
     padding-top: 70px;
     font-size: 5em;
-    font-weight: 800;
+    font-weight: 700;
 }
 .top {
     position: relative;
@@ -158,10 +164,7 @@ h1 {
 .grey-text {
     color: grey;
 }
-.b-bottom {
-    border-bottom: 1px solid lightgrey;
-    padding-bottom: 40px;
-}
+
 .list-icon {
     padding-left: 0.5em;
     text-indent: -0.6em;
@@ -189,6 +192,36 @@ footer {
 .footer-bottom {
     color: var(--color-main-bg);
 }
+
+#call-to-action {
+    background-color: var(--color-suqare6);
+    height: 300px;
+}
+.main-box {
+    width: calc(100% / 3);
+    height: 400px;
+}
+.box-left {
+    border: 2px solid red;
+    width: calc(100% / 4);    
+}
+.box-right {
+    border: 2px solid red;
+    width: calc(100% / 4);    
+}
+.box-center {
+    border: 2px solid red;
+}
+
+.box {
+    width: calc(100% / 4);
+    border: 2px solid red;
+    /* width: 200px; */
+    /* height: 200px; */
+}
+.box img {
+    width: 100%;    
+}
 /* margin e padding */
 .pt-10 {
     padding-top: 10px;
@@ -204,6 +237,9 @@ footer {
 }
 .pb-30 {
     padding-bottom: 30px;
+}
+.pr-50 {
+    padding-right: 50px;
 }
 .mt-30 {
     margin-top: 30px;
@@ -239,8 +275,14 @@ footer {
 .d-flex {
     display: flex;
 }
+.align-center {
+    align-items: center;
+}
+.align-self {
+    align-self: center;
+}
 .s-between {
-    justify-content: space-between;
+    justify-content: space-between;   
 }
 .flex-column {
     flex-direction: column;
@@ -251,8 +293,14 @@ footer {
 .gap {
     gap: 40px;
 }
+.l-height {
+    line-height: 2;
+}
 .b-top {
     border-top: 1px solid lightgrey;
-    width: 10%;
-    
+    width: 10%;   
+}
+.b-bottom {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 40px;
 }
