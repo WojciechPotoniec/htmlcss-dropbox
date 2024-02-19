@@ -52,7 +52,7 @@
                             per ottimizzare il flusso di lavoro esistente.</p>
                         <a href="#" class="btn">Inizia la tua prova gratuita</a>
                         <span>Annulla in qualsiasi momento</span>
-                        <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#call-to-action"><i class="fa-solid fa-arrow-down"></i></a>
                     </div>
                     <div class="right d-flex">
                         <img id="jumbo" src="img/jumbo.png" alt="jumbo image">
@@ -64,7 +64,7 @@
             <h2>Trova il piano business che fa per te</h2>
             <div class="pt-30 pb-30">
                 <label class="mr-20" for="month">
-                    <input type="radio" name="fav_billing" value="month">
+                    <input type="radio" checked="checked" name="fav_billing" value="month">
                     <small>Fatturazione mensile</small>
                 </label>
                 <label for="year">
@@ -297,37 +297,47 @@
                 <a href="#"> Scopri di più sui nostri clienti</a>
             </div>
         </section>
-        <aside class="main-box mt-100 d-flex s-between debug">
-            <div class="box-left d-flex wrap debug">
-                <div class="box">
-                    <img src="img/designit.svg" alt="">
+        <aside class="mt-100 d-flex">
+            <div class="main-box d-flex wrap">
+                <div id="designit" class="box d-flex align-center">
+                    <img src="img/designit.svg" alt="Logo">
                 </div>
-                <!-- <div class="box">
-                    <img src="img/arizona_state_university.svg" alt="">
+                <div id="arizonastate" class="box d-flex align-center">
+                    <img src="img/arizona_state_university.svg" alt="Logo">
                 </div>
-                <div class="box">
-                    <img src="img/university_of_florida.svg" alt="">
+                <div id="florida" class="box d-flex align-center">
+                    <img src="img/university_of_florida.svg" alt="Logo">
                 </div>
-                <div class="box">
-                    <img src="img/topps.svg" alt="">
+                <div id="topps" class="box d-flex align-center">
+                    <img src="img/topps.svg" alt="Logo">
                 </div>
-            </div> -->
-            <div class="box-center debug">
-                <!-- <img src="img/designit.svg" alt=""> -->
             </div>
-            <div class="box-right d-flex debug">
-                <!-- <div class="box">
-                    <img src="img/world_bicycle_relief.svg" alt="">
+            <div class="main-box padding">
+                <div >
+                    <img src="img/designit.svg" class="b-bottom" alt="Logo">
                 </div>
-                <div class="box">
-                    
+                <div class="pt-30 pb-30">
+                    <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte
+                        soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e Dropbox Paper.
+                        Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox e
+                        Dropbox Paper".
+                    </p>
                 </div>
-                <div class="box">
-
+                    <span>Morten Thomsen, Global IT Lead</span>
+            </div>
+            <div class="main-box d-flex wrap">
+                <div id="world" class="box d-flex align-center">
+                    <img src="img/world_bicycle_relief.svg" alt="Logo">
                 </div>
-                <div class="box">
-                    
-                </div> -->
+                <div id="hearst" class="box d-flex align-center">
+                    <img src="img/hearst_corp.svg" alt="Logo">
+                </div>
+                <div id="planet" class="box d-flex align-center">
+                    <img  src="img/lonely_planet.svg" alt="Logo">
+                </div>
+                <div id="channel" class="box d-flex align-center">
+                    <img src="img/clear_channel.svg" alt="Logo">
+                </div>
             </div>
         </aside>
         <section id="call-to-action" class="d-flex align-center">
@@ -341,19 +351,23 @@
             </div>
         </section>
         <section class="small-container">
-            <h2 class="mt-100 b-bottom">Domande frequenti</h2>
-            <div class="b-bottom pt-30 d-flex s-between">
+            <h2 class="mt-100">Domande frequenti</h2>
+            <hr>
+            <div class="d-flex s-between">
                 <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
                 <i class="fa-solid fa-angle-down pr-50"></i>
             </div>
-            <div class="b-bottom pt-30 d-flex s-between">
+            <hr>
+            <div class="d-flex s-between">
                 <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
                 <i class="fa-solid fa-angle-down pr-50"></i>
             </div>
-            <div class="b-bottom pt-30 d-flex s-between">
+            <hr>
+            <div class="d-flex s-between">
                 <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
                 <i class="fa-solid fa-angle-down pr-50"></i>
             </div>
+            <hr>
         </section>
     </main>
     <!-- footer -->
@@ -411,11 +425,9 @@
             </ul>
         </div>
         <div class="container footer-bottom small-text">
-            <div class="b-top mt-100"></div>
-            <div class="pb-30 pt-30">
-                <i class="fa-solid fa-earth-europe">
-                    <a href="#"> Italiano </a>
-                </i>
+            <div class="b-top mt-100 pb-30 pt-30">
+                <i class="fa-solid fa-earth-europe"></i>
+                <a href="#"> Italiano </a>
                 <i class="fa-solid fa-caret-up"></i>
             </div>
         </div>
