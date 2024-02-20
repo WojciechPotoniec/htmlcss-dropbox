@@ -277,17 +277,8 @@ h1 {
 .card img {
     width: 100%;
 }
-/* footer */
-footer {
-    background-color: var(--color-footer-bg);
-}
-.footer-top {
-    color: var(--color-main-bg);
-}
-.footer-bottom {
-    color: var(--color-main-bg);
-}
 
+/* section call-to-action */
 #call-to-action {
     background-color: var(--color-square6);
     height: 300px;
@@ -332,4 +323,18 @@ footer {
 .box img {
     width: 50%;
     filter: invert(100%);
+}
+
+/* footer */
+footer {
+    background-color: var(--color-footer-bg);
+}
+.footer-top {
+    color: var(--color-main-bg);
+}
+.footer-bottom {
+    color: var(--color-main-bg);
+}
+.footer-bottom a {
+    text-decoration: none;
 }
